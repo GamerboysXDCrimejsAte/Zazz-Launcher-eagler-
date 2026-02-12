@@ -1,0 +1,12 @@
+<script type="text/javascript">
+    window.eaglercraftXOpts = {
+        container: "game_container",
+        assetsURI: "assets.epk",
+        localesURI: "lang/",
+        worldsDB: "worlds",
+        servers: [{ addr: "ws://localhost:8081/", name: "Default Server" }]
+    };
+</script>
+<script type="text/javascript" src="classes.js"></script>
+<div id="game_container" style="width:100vw; height:100vh;"></div>
+<script>window.addEventListener("load", () => main());</script>
